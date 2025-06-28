@@ -3,22 +3,30 @@
 ###
 
 <div align="left">
+  <!-- Instagram -->
   <a href="https://www.instagram.com/davidfdezzz72/">
-    <img src="https://raw.githubusercontent.com/maurodesouza/profile-readme-generator/master/src/assets/icons/social/instagram/default.svg" width="52" height="40" alt="instagram logo"  />
+    <img src="https://raw.githubusercontent.com/maurodesouza/profile-readme-generator/master/src/assets/icons/social/instagram/default.svg" width="52" height="40" alt="instagram logo" />
   </a>
-  <a  href="https://x.com/dfdezquinones">
-  <img src="https://raw.githubusercontent.com/maurodesouza/profile-readme-generator/master/src/assets/icons/social/twitter/default.svg" width="52" height="40" alt="twitter logo"  />
+
+  <!-- Twitter -->
+  <a href="https://x.com/dfdezquinones">
+    <img src="https://raw.githubusercontent.com/maurodesouza/profile-readme-generator/master/src/assets/icons/social/twitter/default.svg" width="52" height="40" alt="twitter logo" />
   </a>
+
   <!-- Discord -->
-<a href="#" onclick="navigator.clipboard.writeText('DavidFdezMSK#7810').then(() => alert('Discord tag copiado al portapapeles')).catch(() => alert('Error al copiar Discord'));">
-  <img src="https://raw.githubusercontent.com/maurodesouza/profile-readme-generator/master/src/assets/icons/social/discord/default.svg" width="52" height="40" alt="discord logo" />
-</a>
+  <a href="#" onclick="copyToClipboard('DavidFdezMSK#7810')">
+    <img src="https://raw.githubusercontent.com/maurodesouza/profile-readme-generator/master/src/assets/icons/social/discord/default.svg" width="52" height="40" alt="discord logo" />
+  </a>
 
-<!-- Gmail -->
-<a href="#" onclick="navigator.clipboard.writeText('dfdezquinones@gmail.com').then(() => alert('Correo copiado al portapapeles')).catch(() => alert('Error al copiar correo'));">
-  <img src="https://raw.githubusercontent.com/maurodesouza/profile-readme-generator/master/src/assets/icons/social/gmail/default.svg" width="52" height="40" alt="gmail logo" />
-</a>
+  <!-- Gmail -->
+  <a href="#" onclick="copyToClipboard('davidfdezzz72@gmail.com')">
+    <img src="https://raw.githubusercontent.com/maurodesouza/profile-readme-generator/master/src/assets/icons/social/gmail/default.svg" width="52" height="40" alt="gmail logo" />
+  </a>
+</div>
 
+<!-- Mensaje flotante -->
+<div id="copy-message" style="display:none; position:fixed; bottom:20px; left:50%; transform:translateX(-50%); background:#333; color:#fff; padding:10px 20px; border-radius:10px; font-family:sans-serif; z-index:999;">
+  Copiado al portapapeles
 </div>
 
 ###
