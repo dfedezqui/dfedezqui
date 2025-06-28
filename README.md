@@ -19,10 +19,27 @@
   </a>
 
   <!-- Gmail -->
-  <a href="#" onclick="copyToClipboard('davidfdezzz72@gmail.com')">
+  <a href="#" onclick="copyToClipboard('dfdezquinones@gmail.com')">
     <img src="https://raw.githubusercontent.com/maurodesouza/profile-readme-generator/master/src/assets/icons/social/gmail/default.svg" width="52" height="40" alt="gmail logo" />
   </a>
 </div>
+
+
+<script>
+  function copyToClipboard(text) {
+    navigator.clipboard.writeText(text)
+      .then(() => {
+        const msg = document.getElementById("copy-message");
+        msg.style.display = "block";
+        setTimeout(() => {
+          msg.style.display = "none";
+        }, 2000);
+      })
+      .catch(() => {
+        alert("Error al copiar al portapapeles");
+      });
+  }
+</script>
 
 <!-- Mensaje flotante -->
 <div id="copy-message" style="display:none; position:fixed; bottom:20px; left:50%; transform:translateX(-50%); background:#333; color:#fff; padding:10px 20px; border-radius:10px; font-family:sans-serif; z-index:999;">
