@@ -14,37 +14,18 @@
   </a>
 
   <!-- Discord -->
-  <a href="#" onclick="copyToClipboard('DavidFdezMSK#7810')">
+  <a href="#">
     <img src="https://raw.githubusercontent.com/maurodesouza/profile-readme-generator/master/src/assets/icons/social/discord/default.svg" width="52" height="40" alt="discord logo" />
   </a>
+  <span style="margin-left: 10px; color:#0099ff; font-weight: bold;">DavidFdezMSK#7810</span>
 
   <!-- Gmail -->
-  <a href="#" onclick="copyToClipboard('dfdezquinones@gmail.com')">
+  <a href="#">
     <img src="https://raw.githubusercontent.com/maurodesouza/profile-readme-generator/master/src/assets/icons/social/gmail/default.svg" width="52" height="40" alt="gmail logo" />
   </a>
+  <span style="margin-left: 10px; color:#d14836; font-weight: bold;">dfdezquinones@gmail.com</span>
 </div>
 
-
-<script>
-  function copyToClipboard(text) {
-    navigator.clipboard.writeText(text)
-      .then(() => {
-        const msg = document.getElementById("copy-message");
-        msg.style.display = "block";
-        setTimeout(() => {
-          msg.style.display = "none";
-        }, 2000);
-      })
-      .catch(() => {
-        alert("Error al copiar al portapapeles");
-      });
-  }
-</script>
-
-<!-- Mensaje flotante -->
-<div id="copy-message" style="display:none; position:fixed; bottom:20px; left:50%; transform:translateX(-50%); background:#333; color:#fff; padding:10px 20px; border-radius:10px; font-family:sans-serif; z-index:999;">
-  Copiado al portapapeles
-</div>
 
 ###
 
