@@ -1,8 +1,8 @@
-<div align="center">
+ <div align="center">
   <h1>Hi there, I'm David Fernández Quiñones 👋</h1>
   <h3>Software Developer | Backend & NLP Enthusiast</h3>
 
-  <!-- Badges de contacto rápidos -->
+  <!-- Contact Badges -->
   <a href="https://www.linkedin.com/in/david-fern%C3%A1ndez-qui%C3%B1ones-246785443/" target="_blank">
     <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" />
   </a>
@@ -37,16 +37,18 @@
 
 <p align="center">
   <!-- Languages -->
-  <img src="https://skillicons.dev/icons?i=python,java,cs,js,html,css&perline=6" alt="Languages" /><br/>
+  <img src="https://skillicons.dev/icons?i=python,java,cs,js,html,css&perline=6" alt="Languages" />
+  <br/>
   <!-- Frameworks & Tools -->
-  <img src="https://skillicons.dev/icons?i=flask,git,github,vscode,idea,visualstudio&perline=6" alt="Tools & IDEs" /><br/>
+  <img src="https://skillicons.dev/icons?i=flask,git,github,vscode,idea,visualstudio&perline=6" alt="Tools & IDEs" />
+  <br/>
   <!-- Operating Systems -->
   <img src="https://skillicons.dev/icons?i=windows,linux&perline=2" alt="Operating Systems" />
 </p>
 
 ---
 
-### 🌟 Featured Project
+### 🌟 Featured Projects
 
 <div align="center">
   <table>
@@ -54,7 +56,7 @@
       <td width="50%">
         <h3 align="center">🔒 SECURE-MSG</h3>
         <p align="center">
-         A secure messaging application focused on end-to-end data protection, message encryption, and secure communications.
+          A secure messaging application focused on end-to-end data protection, message encryption, and secure communications.
         </p>
         <p align="center">
           <a href="https://github.com/dfedezqui/SECURE-MSG" target="_blank">
@@ -82,21 +84,27 @@
         </p>
       </td>
     </tr>
+    <tr>
+      <td width="50%">
+        <h3 align="center">📊 REVIEW-CLASSIFIER</h3>
+        <p align="center">
+          A text classification project focused on analyzing and categorizing user reviews.
+        </p>
+        <p align="center">
+          <a href="https://github.com/dfedezqui/ReviewClassifier" target="_blank">
+            <img src="https://img.shields.io/badge/Repository-181717?style=flat-square&logo=github&logoColor=white" alt="Repo" />
+          </a>
+        </p>
+      </td>
+    </tr>
   </table>
 </div>
 
 ---
 
-### 📊 GitHub Analytics
+### 🐍 GitHub Contribution Activity
 
 <div align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=ualdfq240&hide_title=false&hide_rank=false&show_icons=true&include_all_commits=true&count_private=true&disable_animations=false&theme=dracula&hide_border=true" height="150" alt="Stats Graph" />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs?username=ualdfq240&locale=en&hide_title=false&layout=compact&card_width=320&langs_count=5&theme=dracula&hide_border=true" height="150" alt="Languages Graph" />
-</div>
-
-<br />
-
-<div align="center">
-  <!-- Contribution Snake Animation -->
   <img src="https://raw.githubusercontent.com/Platane/snk/output/github-contribution-grid-snake.svg" alt="Contribution Snake" />
 </div>
+
